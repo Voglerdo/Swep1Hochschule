@@ -16,11 +16,15 @@ public class OsterRechner {
 	
 	n = j-1900;
 	a = n % 19;
-	b = (7*a+1); // idiv 19
+	b = (7*a+1)/19; 
 	m = (11*a+4-b) % 29;
-	q= n; // idiv 4 
-	w=(n+q+31+m)%7;
+	q= n/4; 
+	w=(n+q+31-m)%7;
 	p= 25-m-w;
+	
+	if (p<=0){
+		p=p+31;
+	}
 	
 	System.out.println(p);
 	
