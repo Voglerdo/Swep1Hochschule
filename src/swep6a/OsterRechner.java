@@ -27,6 +27,5 @@ public class OsterRechner {
 	}
 	
 	System.out.println(p);
-	
 }
 }

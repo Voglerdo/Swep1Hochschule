@@ -19,6 +19,7 @@ public class Konto {
 			return 0;
 		}
 	}
+
 	@Override
 	public String toString() {
 		return "Konto [kontoNr=" + kontoNr + ", saldo=" + saldo + "]";
