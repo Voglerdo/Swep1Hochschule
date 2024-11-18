@@ -1,7 +1,6 @@
 package swepb2;
 
 import zeichnungen.zeichnungen.Dreieck;
-import zeichnungen.zeichnungen.Kreis;
 import zeichnungen.zeichnungen.Quadrat;
 
 public class DachDecker {

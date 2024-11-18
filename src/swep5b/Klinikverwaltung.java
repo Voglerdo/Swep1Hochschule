@@ -2,7 +2,6 @@ package swep5b;
 
 import swep4b.Adresse;
 import uebungen3A.InputTools;
-import java.util.Scanner;
 
 public class Klinikverwaltung {
 	public static void main(String[] args) {
