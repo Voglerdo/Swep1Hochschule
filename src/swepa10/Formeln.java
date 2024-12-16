@@ -7,7 +7,7 @@ public class Formeln {
     public static long berechneFIterativ(int n) {
         long summe = 0;
         for (int i = 3; i <= n; i++) {
-            summe += (long) i * i * i - (long) i * i + i; // i^3 - i^2 + i
+            summe += (long) i * i * i - (long) i * i + i;
         }
         return summe;
     }
